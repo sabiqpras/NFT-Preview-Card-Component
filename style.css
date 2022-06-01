@@ -1,0 +1,135 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    margin: 3.2em auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 15em;
+    height: 28em;
+    padding: 1.2em;
+    border-radius: 16px;
+}
+.pic {
+    position: relative;
+}
+.pic img {
+    width: 15em;
+    border-radius: 16px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15em;
+    height: 15em;
+    background-color: hsla(178, 100%, 50%, 0.39);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    opacity: 0;
+    cursor: pointer;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.deschead {
+    display: block;
+    font-family: 'outfit';
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin: 0.8em 0;
+}
+.deschead:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.descdet {
+    font-family: 'outfit';
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0.8em 0;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+}
+
+.priceinfo {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.ethinfo {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start ;
+}
+
+.clockinfo {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ethdesc {
+    font-family: 'outfit';
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0.8em ;
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+}
+.clock {
+    margin-right: 0.5em;
+}
+.duration {
+    font-family: 'outfit';
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 1em;
+    text-align: right;
+    color: hsl(215, 51%, 70%);
+}
+
+.info {
+    margin: 0.6em 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.info img {
+    width: 1.8em;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.created {
+    font-family: 'outfit';
+    font-size: 13px;
+    font-weight: 300;
+    margin: 1em;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+}
+.user {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'outfit';
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: -0.5em   ;
+    color: hsl(0, 0%, 100%);
+}
+.user:hover {
+    color:hsl(178, 100%, 50%) ;
+}
+hr.linebot {
+    border: none;
+    height: 2px;
+    background: hsl(215, 32%, 27%);
+}
